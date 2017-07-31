@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		854D0B571F2EC1EA003CB9E9 /* SkinBinderManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D0B561F2EC1EA003CB9E9 /* SkinBinderManger.m */; };
+		854D0B5A1F2EC4C3003CB9E9 /* NSObject+skin.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D0B591F2EC4C3003CB9E9 /* NSObject+skin.m */; };
+		854D0B5D1F2ED583003CB9E9 /* SkinBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D0B5C1F2ED583003CB9E9 /* SkinBinder.m */; };
+		8583A01E1F2B2C7900729184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583A01D1F2B2C7900729184 /* main.m */; };
+		8583A0211F2B2C7900729184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583A0201F2B2C7900729184 /* AppDelegate.m */; };
+		8583A0241F2B2C7A00729184 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583A0231F2B2C7A00729184 /* ViewController.m */; };
+		8583A0271F2B2C7A00729184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8583A0251F2B2C7A00729184 /* Main.storyboard */; };
+		8583A0291F2B2C7A00729184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8583A0281F2B2C7A00729184 /* Assets.xcassets */; };
+		8583A02C1F2B2C7A00729184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8583A02A1F2B2C7A00729184 /* LaunchScreen.storyboard */; };
+		8583A0381F2B2CFE00729184 /* SkinManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583A0371F2B2CFE00729184 /* SkinManger.m */; };
+		8583A03B1F2B2D1400729184 /* BaseSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583A03A1F2B2D1400729184 /* BaseSkin.m */; };
+		8583A03E1F2B2D3300729184 /* RedSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583A03D1F2B2D3300729184 /* RedSkin.m */; };
+		8583A0411F2B2D4100729184 /* BlueSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583A0401F2B2D4100729184 /* BlueSkin.m */; };
+		8583A0441F2B2D5F00729184 /* BlankSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583A0431F2B2D5F00729184 /* BlankSkin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		854D0B551F2EC1EA003CB9E9 /* SkinBinderManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinBinderManger.h; sourceTree = "<group>"; };
+		854D0B561F2EC1EA003CB9E9 /* SkinBinderManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinBinderManger.m; sourceTree = "<group>"; };
+		854D0B581F2EC4C3003CB9E9 /* NSObject+skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+skin.h"; sourceTree = "<group>"; };
+		854D0B591F2EC4C3003CB9E9 /* NSObject+skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+skin.m"; sourceTree = "<group>"; };
+		854D0B5B1F2ED583003CB9E9 /* SkinBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinBinder.h; sourceTree = "<group>"; };
+		854D0B5C1F2ED583003CB9E9 /* SkinBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinBinder.m; sourceTree = "<group>"; };
+		8583A0191F2B2C7900729184 /* SkinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8583A01D1F2B2C7900729184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8583A01F1F2B2C7900729184 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8583A0201F2B2C7900729184 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8583A0221F2B2C7A00729184 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8583A0231F2B2C7A00729184 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8583A0261F2B2C7A00729184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8583A0281F2B2C7A00729184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8583A02B1F2B2C7A00729184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8583A02D1F2B2C7A00729184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8583A0361F2B2CFE00729184 /* SkinManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinManger.h; sourceTree = "<group>"; };
+		8583A0371F2B2CFE00729184 /* SkinManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinManger.m; sourceTree = "<group>"; };
+		8583A0391F2B2D1400729184 /* BaseSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSkin.h; sourceTree = "<group>"; };
+		8583A03A1F2B2D1400729184 /* BaseSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSkin.m; sourceTree = "<group>"; };
+		8583A03C1F2B2D3300729184 /* RedSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedSkin.h; sourceTree = "<group>"; };
+		8583A03D1F2B2D3300729184 /* RedSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedSkin.m; sourceTree = "<group>"; };
+		8583A03F1F2B2D4100729184 /* BlueSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSkin.h; sourceTree = "<group>"; };
+		8583A0401F2B2D4100729184 /* BlueSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSkin.m; sourceTree = "<group>"; };
+		8583A0421F2B2D5F00729184 /* BlankSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlankSkin.h; sourceTree = "<group>"; };
+		8583A0431F2B2D5F00729184 /* BlankSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlankSkin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8583A0161F2B2C7900729184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8583A0101F2B2C7900729184 = {
+			isa = PBXGroup;
+			children = (
+				8583A01B1F2B2C7900729184 /* SkinDemo */,
+				8583A01A1F2B2C7900729184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8583A01A1F2B2C7900729184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8583A0191F2B2C7900729184 /* SkinDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8583A01B1F2B2C7900729184 /* SkinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8583A0331F2B2C8000729184 /* SkinCenter */,
+				8583A01F1F2B2C7900729184 /* AppDelegate.h */,
+				8583A0201F2B2C7900729184 /* AppDelegate.m */,
+				8583A0221F2B2C7A00729184 /* ViewController.h */,
+				8583A0231F2B2C7A00729184 /* ViewController.m */,
+				8583A0251F2B2C7A00729184 /* Main.storyboard */,
+				8583A0281F2B2C7A00729184 /* Assets.xcassets */,
+				8583A02A1F2B2C7A00729184 /* LaunchScreen.storyboard */,
+				8583A02D1F2B2C7A00729184 /* Info.plist */,
+				8583A01C1F2B2C7900729184 /* Supporting Files */,
+			);
+			path = SkinDemo;
+			sourceTree = "<group>";
+		};
+		8583A01C1F2B2C7900729184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8583A01D1F2B2C7900729184 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8583A0331F2B2C8000729184 /* SkinCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8583A0351F2B2CD800729184 /* Skin */,
+				8583A0341F2B2CC900729184 /* SkinManger */,
+			);
+			path = SkinCenter;
+			sourceTree = "<group>";
+		};
+		8583A0341F2B2CC900729184 /* SkinManger */ = {
+			isa = PBXGroup;
+			children = (
+				8583A0361F2B2CFE00729184 /* SkinManger.h */,
+				8583A0371F2B2CFE00729184 /* SkinManger.m */,
+				854D0B551F2EC1EA003CB9E9 /* SkinBinderManger.h */,
+				854D0B561F2EC1EA003CB9E9 /* SkinBinderManger.m */,
+				854D0B5B1F2ED583003CB9E9 /* SkinBinder.h */,
+				854D0B5C1F2ED583003CB9E9 /* SkinBinder.m */,
+				854D0B581F2EC4C3003CB9E9 /* NSObject+skin.h */,
+				854D0B591F2EC4C3003CB9E9 /* NSObject+skin.m */,
+			);
+			path = SkinManger;
+			sourceTree = "<group>";
+		};
+		8583A0351F2B2CD800729184 /* Skin */ = {
+			isa = PBXGroup;
+			children = (
+				8583A0391F2B2D1400729184 /* BaseSkin.h */,
+				8583A03A1F2B2D1400729184 /* BaseSkin.m */,
+				8583A03C1F2B2D3300729184 /* RedSkin.h */,
+				8583A03D1F2B2D3300729184 /* RedSkin.m */,
+				8583A03F1F2B2D4100729184 /* BlueSkin.h */,
+				8583A0401F2B2D4100729184 /* BlueSkin.m */,
+				8583A0421F2B2D5F00729184 /* BlankSkin.h */,
+				8583A0431F2B2D5F00729184 /* BlankSkin.m */,
+			);
+			path = Skin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8583A0181F2B2C7900729184 /* SkinDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8583A0301F2B2C7A00729184 /* Build configuration list for PBXNativeTarget "SkinDemo" */;
+			buildPhases = (
+				8583A0151F2B2C7900729184 /* Sources */,
+				8583A0161F2B2C7900729184 /* Frameworks */,
+				8583A0171F2B2C7900729184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkinDemo;
+			productName = SkinDemo;
+			productReference = 8583A0191F2B2C7900729184 /* SkinDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8583A0111F2B2C7900729184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mr Luo";
+				TargetAttributes = {
+					8583A0181F2B2C7900729184 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QX8P7Y36MT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8583A0141F2B2C7900729184 /* Build configuration list for PBXProject "SkinDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8583A0101F2B2C7900729184;
+			productRefGroup = 8583A01A1F2B2C7900729184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8583A0181F2B2C7900729184 /* SkinDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8583A0171F2B2C7900729184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8583A02C1F2B2C7A00729184 /* LaunchScreen.storyboard in Resources */,
+				8583A0291F2B2C7A00729184 /* Assets.xcassets in Resources */,
+				8583A0271F2B2C7A00729184 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8583A0151F2B2C7900729184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8583A0241F2B2C7A00729184 /* ViewController.m in Sources */,
+				8583A0211F2B2C7900729184 /* AppDelegate.m in Sources */,
+				8583A03E1F2B2D3300729184 /* RedSkin.m in Sources */,
+				8583A0441F2B2D5F00729184 /* BlankSkin.m in Sources */,
+				854D0B571F2EC1EA003CB9E9 /* SkinBinderManger.m in Sources */,
+				854D0B5D1F2ED583003CB9E9 /* SkinBinder.m in Sources */,
+				8583A0411F2B2D4100729184 /* BlueSkin.m in Sources */,
+				854D0B5A1F2EC4C3003CB9E9 /* NSObject+skin.m in Sources */,
+				8583A03B1F2B2D1400729184 /* BaseSkin.m in Sources */,
+				8583A0381F2B2CFE00729184 /* SkinManger.m in Sources */,
+				8583A01E1F2B2C7900729184 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8583A0251F2B2C7A00729184 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8583A0261F2B2C7A00729184 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8583A02A1F2B2C7A00729184 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8583A02B1F2B2C7A00729184 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8583A02E1F2B2C7A00729184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8583A02F1F2B2C7A00729184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8583A0311F2B2C7A00729184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QX8P7Y36MT;
+				INFOPLIST_FILE = SkinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyrt.SkinDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8583A0321F2B2C7A00729184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QX8P7Y36MT;
+				INFOPLIST_FILE = SkinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyrt.SkinDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8583A0141F2B2C7900729184 /* Build configuration list for PBXProject "SkinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8583A02E1F2B2C7A00729184 /* Debug */,
+				8583A02F1F2B2C7A00729184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8583A0301F2B2C7A00729184 /* Build configuration list for PBXNativeTarget "SkinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8583A0311F2B2C7A00729184 /* Debug */,
+				8583A0321F2B2C7A00729184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8583A0111F2B2C7900729184 /* Project object */;
+}
